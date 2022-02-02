@@ -27,14 +27,13 @@ body{
   width: 50px;
   cursor: pointer;
 }
-.menu{
-  width: 30px;
-  cursor: pointer;
-  margin-left: 40px;
-}
 nav{
   flex: 1;
   text-align: right;
+}
+nav ul li:hover{
+  transform: scale(1.2);
+  position: relative;
 }
 nav ul li{
   list-style: none;
@@ -88,6 +87,8 @@ button{
 button:hover{
   background-color: black;
   color: white;
+  transform: scale(1.05);
+  transition: transform 0.5s;
 }
 .card{
   width: 200px;
@@ -116,6 +117,14 @@ button:hover{
 }
 .card4{
   background-image: url(images/foto4.jpg);
+  min-height: 200px;
+}
+.card5{
+  background-image: url(images/tokyo1.jpg);
+  min-height: 100px;
+}
+.card6{
+  background-image: url(images/foto6.jpg);
   min-height: 200px;
 }
 

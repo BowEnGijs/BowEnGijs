@@ -4,13 +4,16 @@
   font-family: 'roboto', sans-serif;
 }
 
-.container{
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7) url('images/backgroundlondon.jpg');
+body{
+  background: rgba(0, 0, 0, 0.5) url('images/backgroundlondon.jpg') fixed center;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-blend-mode: darken;
+}
+.container{
+  width: 100%;
+  height: 100vh;
   padding-left: 8%;
   padding-right: 8%;
   box-sizing: border-box;
